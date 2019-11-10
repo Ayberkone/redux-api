@@ -1,0 +1,71 @@
+// --------------
+// Default
+// --------------
+::selection {
+  background: $purple;
+}
+::-moz-selection {
+  background: $purple;
+}
+// --------------
+// End of Default
+// --------------
+
+// --------------
+// Header
+// --------------
+#site-header {
+  color: $gray;
+  box-shadow: 0px -1px 5px 0px $orange;
+}
+// --------------
+// End of Header
+// --------------
+
+// --------------
+// Body
+// --------------
+.container-body {
+  min-height: calc(100vh - 260px - 6rem);
+  p {
+    font-size: 2em;
+    text-transform: capitalize;
+  }
+}
+// --------------
+// End of Body
+// --------------
+
+// --------------
+// --- Footer ---
+// --------------
+
+#site-footer {
+  box-shadow: 0px 0px 5px 0px $orange;
+  ul.social-icons {
+    li {
+      display: inline-block;
+    }
+
+    a {
+      height: $footer-font-size;
+      line-height: $footer-font-size;
+      width: $footer-font-size;
+      font-size: $footer-font-size;
+      border-radius: 50%;
+      margin: 0 0.5rem;
+      text-align: center;
+      display: block;
+      color: white;
+      background: $orange;
+    }
+  }
+
+  .copyrights {
+    color: $gray;
+  }
+}
+
+// --------------
+// End of Footer
+// --------------
